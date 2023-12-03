@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+nav{
+    background-color: #93fdf7;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    padding:20px;
+}
+.logo{
+    width:150px;
+}
+.menu-container{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    color: black;
+}
+li:hover{
+    color: rgb(234, 226, 226);
+    cursor:pointer;
+}
+.banner-container{
+     background-color: rgba(4, 145, 65, 0.8) ; 
+    display: flex;
+
+   
+   
+}
+.banner-img{
+    width:40%;
+   margin-left: 200px;
+   border-radius: 80%;
+  
+}
+.title{
+    font-size: 75px;
+    color:white;
+}
+.left-side-container{
+    margin-left: 100px;
+    margin-top:60px ;
+    
+}
+.description{
+    font-size:20px;
+    color: white;
+    padding: 20px;
+}
+button{
+    padding: 15px 30px;
+    border: none;
+}
+.start-btn{
+    background-color:rgba(3, 3, 51, 0.608);
+    color: white;
+    font-size:20px;
+}
+.img-container{
+    text-decoration: none;
+    display: block;
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 25px auto;
+    color:black;
+    background-color: #fff;
+    line-height: 35px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+.main-container{
+    background-color: rgba(158, 219, 200, 0.8); 
+    display: flex;
+}
+.title1{
+    color: rgba(4, 145, 65, 0.8) ;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+.description1{
+    color: black;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 20px; 
+}
+.right-side-boxContainers{
+    text-decoration: none;
+    display:flex;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 45px auto;
+    color:black;
+    background-color: #fff;
+    line-height: 35px;
+    border: 1px solid #fff;
+    text-align:center;
+    margin-left: 45px;
+}
+/* .sub-size{
+   margin:0px;
+    margin-left: 0%;
+    font-size: xx-large;
+} */
+.firstbox{
+    margin: 0 2px 13px 16px ;
+    text-align:center;
+    color: black;
+}
+.meaning{
+    color: black;
+    margin:2px 3px 2px 3px;
+    font-size: 10px;    
+}
+.title-review{
+    text-align: center;
+    margin-top: 2px;
+    margin-left: 50px;
+    color: black;
+    display: inline-block;
+
+}
+.review-container{
+    background-color:rgb(232, 237, 235);
+    position: relative;
+    
+}
+.review1{
+    text-decoration: none;
+    display:inline-block;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    margin:20px 15px 65px 65px;
+    color:black;
+    background-color: #fff;
+    line-height: 35px;
+    border: 1px solid #fff;
+    
+   
+
+}
+.review-img{
+    border-radius: 50px;
+    height:50px;
+    width:50px;
+}
+.des1{
+    margin-left: 15px;
+}
+.description2{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.question-container{
+    background-color:white;
+   
+}
+.title-ques{
+     text-align: center;
+     margin-top: 10px;
+}
+.call-btn{
+    background-color:rgba(3, 3, 51, 0.608);
+    color: white;
+    font-size:20px;
+    line-height: 0%;
+    justify-content: center;
+    padding-bottom:200px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer{
+	background-color:rgba(4, 145, 65, 0.8);
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+   margin: auto;
+}
+ul{
+	list-style: none;
+}
+footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:10;
+	bottom: -10px;
+	/* background-color: #e91e63; */
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #0abb3c;
+	background-color: #ffffff;
+}
